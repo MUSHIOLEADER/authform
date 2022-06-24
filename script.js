@@ -5,34 +5,34 @@ const handleclick = (e) =>{
     let fourthfield= document.getElementById("fourthfield").value
 
     if(firstfield ===  "" && secondfield === "" && thirdfield === "" && fourthfield === ""){
-        document.getElementById("images").style.visibility= "visible"
-        document.getElementById("images2").style.visibility= "visible"
-        document.getElementById("images3").style.visibility= "visible"
-        document.getElementById("images4").style.visibility= "visible"
+        document.getElementById("images").style.display= "inherit"
+        document.getElementById("images2").style.display= "inherit"
+        document.getElementById("images3").style.display= "inherit"
+        document.getElementById("images4").style.display= "inherit"
 
         // here is going code for bg
         document.getElementById("firstfield").style.border= "1px solid hsl(0, 100%, 74%)"
         
         // here is going code which is about error message
 
-        document.getElementById("name").style.visibility= "visible"
-        document.getElementById("name2").style.visibility= "visible"
-        document.getElementById("name3").style.visibility= "visible"
-        document.getElementById("name4").style.visibility= "visible"
+        document.getElementById("name").style.display= "inherit"
+        document.getElementById("name2").style.display= "inherit"
+        document.getElementById("name3").style.display= "inherit"
+        document.getElementById("name4").style.display= "inherit"
         
     }
     else if(firstfield !== "" && secondfield === "" && thirdfield === "" && fourthfield === ""){
-        document.getElementById("images").style.visibility= "hidden"
-        document.getElementById("images2").style.visibility= "visible"
-        document.getElementById("images3").style.visibility= "visible"
-        document.getElementById("images4").style.visibility= "visible"
+        document.getElementById("images").style.display= "none"
+        document.getElementById("images2").style.display= "inherit"
+        document.getElementById("images3").style.display= "inherit"
+        document.getElementById("images4").style.display= "inherit"
 
         // here is going code for bg
         document.getElementById("firstfield").style.border= "1px solid hsl(0, 100%, 74%)"
         
         // here is going code which is about error message
 
-        document.getElementById("name").style.visibility= "hidden"
+        document.getElementById("name").style.display= "none"
         document.getElementById("name2").style.visibility= "visible"
         document.getElementById("name3").style.visibility= "visible"
         document.getElementById("name4").style.visibility= "visible"
